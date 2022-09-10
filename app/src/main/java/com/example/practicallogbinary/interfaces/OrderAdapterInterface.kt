@@ -1,5 +1,7 @@
 package com.example.practicallogbinary.interfaces
 
+import com.example.practicallogbinary.models.FoodOrder
+
 interface OrderAdapterInterface {
-    fun onItemClicked(value: String)
+    fun onItemClicked(foodOrder: FoodOrder)
 }

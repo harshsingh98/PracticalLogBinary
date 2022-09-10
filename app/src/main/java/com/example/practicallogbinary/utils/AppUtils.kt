@@ -5,6 +5,8 @@ import android.content.res.Resources
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.widget.ImageView
+import java.text.SimpleDateFormat
+import java.util.*
 
 object AppUtils {
     fun dp2Px(dp: Int, context: Context): Int {
@@ -26,6 +28,13 @@ object AppUtils {
             else -> false
         }
         return false
+    }
+
+    fun convertDateFormat(date: String, inputFormat: String, outputFormat: String): String {
+        val input = SimpleDateFormat(inputFormat, Locale.US)
+        val output = SimpleDateFormat(outputFormat, Locale.US)
+        val formattedDate = input.parse(date)
+        return output.format(formattedDate!!)
     }
 
     fun getScreenWidth(): Int {

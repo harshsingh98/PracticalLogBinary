@@ -22,6 +22,18 @@ object ExtFuncs {
         }
     }
 
+    //to check number is prime or not
+    fun Int.checkNonPrimeOrPrime(): Boolean{
+        var flag = false
+        for (i in 2..this / 2) {
+            if (this % i == 0) {
+                flag = true
+                break
+            }
+        }
+        return flag
+    }
+
     //for logs
     fun logD(tag: String = "LOG_BINARY_APP", message: String) {
         Timber.tag(tag).d(message)

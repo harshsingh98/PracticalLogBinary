@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/HARSH/AndroidStudioProjects/PracticalLogBinary/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/HARSH/AndroidStudioProjects/PracticalLogBinary/app/src/main/res/drawable/ic_empty_illustration.xml" value="0.1" />
+        <entry key="..\:/Users/HARSH/AndroidStudioProjects/PracticalLogBinary/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Users/HARSH/AndroidStudioProjects/PracticalLogBinary/app/src/main/res/layout/item_orders_layout.xml" value="0.264" />
+        <entry key="..\:/Users/HARSH/AndroidStudioProjects/PracticalLogBinary/app/src/main/res/layout/no_data_found.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/HARSH/AndroidStudioProjects/PracticalLogBinary/app/src/main/res/layout/shimmer_orders_layout.xml" value="0.12158054711246201" />
       </map>
     </option>
   </component>

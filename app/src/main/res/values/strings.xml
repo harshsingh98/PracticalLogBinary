@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PracticalLogBinary</string>
+    <string name="txt_from_api_title">From Api</string>
+    <string name="txt_from_db_title">From DB</string>
+    <string name="txt_data_not_found_title">Data Not Found</string>
+    <string name="txt_data_not_found_description">Please come back in a while</string>
 </resources>

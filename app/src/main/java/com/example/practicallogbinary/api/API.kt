@@ -1,5 +1,6 @@
 package com.example.practicallogbinary.api
 
+import com.example.practicallogbinary.models.OrdersListResponse
 import okhttp3.RequestBody
 import okhttp3.ResponseBody
 import retrofit2.Response
@@ -11,5 +12,5 @@ interface API {
     suspend fun getOrders(
         @HeaderMap header: Map<String, String>,
         @FieldMap fieldsMap: Map<String, Int>,
-    ): Response<ResponseBody>
+    ): Response<OrdersListResponse>
 }

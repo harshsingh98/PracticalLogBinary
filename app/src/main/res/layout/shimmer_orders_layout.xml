@@ -27,7 +27,8 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="001"
+                android:minWidth="@dimen/dp80"
+                android:background="@color/colorGrey"
                 style="@style/OrderIdText"/>
 
             <com.google.android.material.textview.MaterialTextView
@@ -37,7 +38,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/mtxtOrderId"
                 android:layout_marginTop="@dimen/dp20"
-                tools:text="001"
+                android:minWidth="@dimen/dp60"
+                android:background="@color/colorGrey"
                 style="@style/OrderTypeText"/>
 
             <com.google.android.material.textview.MaterialTextView
@@ -47,7 +49,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/mtxtOrderType"
                 android:layout_marginTop="@dimen/dp5"
-                tools:text="001"
+                android:minWidth="@dimen/dp60"
+                android:background="@color/colorGrey"
                 style="@style/ExpectedDateText"/>
 
             <com.google.android.material.textview.MaterialTextView
@@ -57,7 +60,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/mtxtExpectedDate"
                 app:layout_constraintBottom_toBottomOf="parent"
-                tools:text="01"
+                android:minWidth="@dimen/dp60"
+                android:background="@color/colorGrey"
                 android:layout_marginTop="@dimen/dp5"
                 android:layout_marginBottom="@dimen/dp10"
                 style="@style/SequenceNoText"/>

@@ -5,6 +5,7 @@ buildscript {
     ext.coroutine_version= '1.6.1'
     ext.retofit_version = '2.9.0'
     ext.logging_interceptor_version = '4.9.1'
+    ext.room_version = '2.4.3'
 }
 plugins {
     id 'com.android.application' version '7.2.0' apply false
